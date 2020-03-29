@@ -18,17 +18,16 @@ head:
   #   To get or check favicons visit: https://realfavicongenerator.net
   favicon:
     # You should use a image/x-icon type icon and configure it here.
-    ico: /img/suka-favicon.ico
+    ico: /img/favicon.ico
     # 16x16 png
-    small:
+    small: /img/favicon-16x16.png
     # 32x32 png
-    medium: # /img/suka-favicon.png
-    # 180x180 png
-    apple_touch_icon:
+    medium: /img/favicon-32x32.png
+    # 180x180 png 
     # 192x192 png
     large:
     # svg icon
-    safari_pinned_tab:
+    safari_pinned_tab: safari-pinned-tab.svg
   # Color
   #   It will defined color below:
   #     Android Chrome Color
@@ -72,7 +71,7 @@ footer:
 # ---------------------------------------------------------------
 uiux:
   # Muilt line slogan is supported.
-  slogan: Hi, nice to meet you.
+  slogan: Hey, nice to meet you.
   # For most link color except post color
   link_color:
   primary_color:
@@ -80,7 +79,7 @@ uiux:
   bg_color:
 
 img:
-  avatar: '/img/default_avatar.png'
+  avatar: '/img/avatar.png'
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -98,8 +97,10 @@ nav:
     use: true
   search:
     use: true
-    link: /search
+    link: /search/
   pages:
+    tags:
+      link: /tags/
     #About:
       #link: /about/
     #Friends:
@@ -139,14 +140,14 @@ post:
   #       license: 'This blog is under a <a href="/creativecommons.html" target="_blank">CC BY-NC-SA 3.0 Unported License</a>'
   # You can also use Front-Matter `license` to override this setting
   # or use Front-Matter `hide_license: true` to hide license on spefic post
-  license:
+  license: 'This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> Attribution 4.0 International (CC BY 4.0) </a>'
 
 # Table Of Contents which will be show on right side of the post
 toc:
   # You can still disable toc for each single post by setting their front-matter with 'toc: false'
   enable: true
   # Show line number for each toc list-item or not. Default is true.
-  line_number: true
+  line_number: false
 
 # ---------------------------------------------------------------
 # Integrated Services
